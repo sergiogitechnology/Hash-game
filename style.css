@@ -10,6 +10,21 @@
     background: linear-gradient(90deg, rgba(65, 185, 131, 1) 0%, rgba(0, 212, 255, 1) 100%);
  }
 
+ h1 {
+   text-align: center;
+   color: rgb(232, 232, 232);
+ }
+
+ h2 {
+   text-align: center;
+   color: rgb(251, 246, 246);
+ }
+
+ h3 {
+   text-align: center;
+   color: rgb(193, 201, 208);
+ }
+
  .board {
     display: grid;
     width: 100%;
@@ -134,6 +149,10 @@
  }
 
  .winning-message-text {
-    color: white;
+    color: rgb(58, 85, 80);
     font-size: 5rem;
+ }
+
+ .show-winning-message {
+   display: flex;
  }
